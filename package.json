@@ -1,0 +1,19 @@
+{
+  "name": "hardsource-issue-238",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack --progress --config=./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.4",
+    "hard-source-webpack-plugin": "^0.5.15",
+    "postcss-loader": "^2.0.10",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}
