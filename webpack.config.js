@@ -13,14 +13,7 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     'style-loader',
-                    {
-                        loader: 'postcss-loader',
-                        options: {
-                            plugins: (loader) => [
-                                require('autoprefixer')()
-                            ]
-                        }
-                    }
+                    'postcss-loader'
                 ]
             }
         ]
